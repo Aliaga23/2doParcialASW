@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_tipo"
+    >
+
+    <fragment
+        android:id="@+id/navigation_tipo"
+        android:name="com.example.parcial2.presentacion.PTipoCombustible"
+        android:label="Tipos"
+        tools:layout="@layout/fragment_tipo_combustible" />
+
+    <fragment
+        android:id="@+id/navigation_estacion"
+        android:name="com.example.parcial2.presentacion.PEstacion"
+        android:label="Estaciones"
+        tools:layout="@layout/fragment_estacion" />
+    <fragment
+        android:id="@+id/navigation_bomba"
+        android:name="com.example.parcial2.presentacion.PBomba"
+        android:label="Bombas"
+        tools:layout="@layout/fragment_bomba" />
+    <fragment
+        android:id="@+id/navigation_stock"
+        android:name="com.example.parcial2.presentacion.PStockCombustible"
+        android:label="Stock"
+        tools:layout="@layout/fragment_stock_combustible" />
+    <fragment
+        android:id="@+id/navigation_fila"
+        android:name="com.example.parcial2.presentacion.PFila"
+        android:label="Fila"
+        tools:layout="@layout/fragment_fila" />
+</navigation>
