@@ -10,8 +10,7 @@
 2. [Stack y librerías](#stack-y-librerías)
 3. [Estructura del proyecto](#estructura-del-proyecto)
 4. [Primeros pasos](#primeros-pasos)
-5. [Configuración de API Keys](#configuración-de-api-keys)
-6. [Arquitectura](#arquitectura)
+5. [Arquitectura](#arquitectura)
 
 
 ---
@@ -89,19 +88,6 @@ Abre la carpeta raíz en Android Studio; Gradle debería sincronizar automátic
 
 Selecciona un emulador o dispositivo físico (**minSdk 24**, **targetSdk 35**) y pulsa ▶️ **Run**.
 
----
-
-## Configuración de API Keys
-
-Para ver el mapa, necesitas una **Google Maps API Key**.
-
-1. Crea un archivo `local.properties` en la raíz (si no existe).
-2. Añade tu clave:
-
-   ```properties
-   MAPS_API_KEY=TU_CLAVE_AQUI
-   ```
-3. El `AndroidManifest.xml` lee esa propiedad: `android:value="${MAPS_API_KEY}"`.
 
 ---
 
