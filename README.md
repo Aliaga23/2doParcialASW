@@ -2,6 +2,7 @@
 
 *Aplicación Android en **Kotlin** elaborada para el **Segundo Parcial de la materia ASW** (Arquitectura de Software). Gestiona estaciones de servicio, tipos de combustible y su stock, arquitectura tres capas , con dos patrones de diseño , chain of reponsability y observer*
 
+*Nota 25/25*
 ---
 
 ## Tabla de contenidos
